@@ -55,7 +55,7 @@ probes:
   readiness:
     httpGet:
       path: /
-      port: http
+      port: 80
     initialDelaySeconds: 5
     periodSeconds: 10
     timeoutSeconds: 3
@@ -63,7 +63,7 @@ probes:
   liveness:
     httpGet:
       path: /
-      port: http
+      port: 80
     initialDelaySeconds: 15
     periodSeconds: 20
     timeoutSeconds: 3
