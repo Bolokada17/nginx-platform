@@ -97,3 +97,8 @@ alerts:
   enabled: false
   latencySeconds: 1
   errorRatePercent: 5
+securityContext:
+  runAsUser: 0
+  runAsGroup: 0
+  fsGroup: 0
+
