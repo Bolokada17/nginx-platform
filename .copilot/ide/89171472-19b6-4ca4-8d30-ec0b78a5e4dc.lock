@@ -1,0 +1,14 @@
+{
+  "socketPath": "\\\\.\\pipe\\mcp-798784f9-4b58-4f0a-9eeb-02946a1d8fcd.sock",
+  "scheme": "pipe",
+  "headers": {
+    "Authorization": "Nonce bf3aef98-9626-4aea-bebe-ad5dc388bc9a"
+  },
+  "pid": 7408,
+  "ideName": "Visual Studio Code",
+  "timestamp": 1789030669499,
+  "workspaceFolders": [
+    "d:\\MASTER\\MLWR - Maschinelles Lernen und Wissenschaftliches Rechnen - Machine Learning and Scientific Computing\\ml-benchmark-v4\\ml-benchmark"
+  ],
+  "isTrusted": true
+}

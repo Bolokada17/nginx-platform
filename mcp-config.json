@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "io.github.github/github-mcp-server": {
+      "tools": [
+        "*"
+      ],
+      "type": "http",
+      "url": "https://github.com/github/github-mcp-server"
+    },
+    "io.github.microsoft/azure-devops-mcp": {
+      "tools": [
+        "*"
+      ],
+      "type": "http",
+      "url": "https://github.com/microsoft/azure-devops-mcp"
+    }
+  }
+}

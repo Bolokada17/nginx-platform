@@ -1,0 +1,15 @@
+id: 446e8c9e-50df-4148-a73b-f284d7c4d16c
+cwd: C:\Users\mohco\.copilot
+client_name: github/autopilot
+name: |-
+  - Erstelle ein eigenes Helm‑Chart mit `Chart.yaml`, `values.yaml`, `deployment.yaml`, `service.yaml`, `ingress.yaml`.
+  - Deployment soll **replicas = 3**, **readiness/liveness probes**, **resource limits**, **rolling updates** enthalten.
+  - Service: **ClusterIP** oder **LoadBalancer** (bitte begründen).
+  - Ingress: Pfad `/`, TLS‑Konfiguration optional.
+  - Logging: Standard‑NGINX‑Access/Errors als **stdout/stderr**.
+  - Monitoring:Exportiere NGINX‑Metriken über **NGINX Exporter**.Integriere Prometheus‑...
+user_named: false
+summary_count: 0
+fork_count: 0
+created_at: 2026-09-10T09:18:15.353Z
+updated_at: 2026-09-10T09:18:16.236Z

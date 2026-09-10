@@ -1,0 +1,8 @@
+=== launch pid=14720 module=C:\Users\mohco\.copilot\installed-plugins\copilot-plugins\azure-devops-copilot-plugin\extensions\azure-devops\extension.mjs ===
+[extension-fork] resolveBootstrapPath: __dir=C:\Users\mohco\AppData\Local\copilot\pkg\win32-x64\1.0.83, argv-bootstrap=C:\Users\mohco\AppData\Local\copilot\pkg\win32-x64\1.0.83\preloads\extension_bootstrap.mjs
+[extension-fork] resolveBootstrapPath: localBootstrap=C:\Users\mohco\AppData\Local\copilot\pkg\win32-x64\1.0.83\preloads\extension_bootstrap.mjs, localExists=true
+[extension-bootstrap] starting: pid=14720, COPILOT_SDK_PATH=\\?\C:\Users\mohco\AppData\Local\Programs\GitHub Copilot\copilot-sdk, EXTENSION_PATH=C:\Users\mohco\.copilot\installed-plugins\copilot-plugins\azure-devops-copilot-plugin\extensions\azure-devops\extension.mjs, SESSION_ID=1392513a-5a6c-4db8-9186-c798a597dc4b
+[extension-bootstrap] importing extension: C:\Users\mohco\.copilot\installed-plugins\copilot-plugins\azure-devops-copilot-plugin\extensions\azure-devops\extension.mjs
+[extension-resolver] resolver hook loaded: pid=14720, COPILOT_SDK_PATH=\\?\C:\Users\mohco\AppData\Local\Programs\GitHub Copilot\copilot-sdk
+=== ready ===
+=== exit code=1 disposition=stopped-normally ===

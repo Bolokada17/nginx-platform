@@ -1,0 +1,35 @@
+{
+  "uid": "nginx-prod",
+  "title": "NGINX Production",
+  "tags": ["nginx", "kubernetes"],
+  "schemaVersion": 39,
+  "version": 1,
+  "timezone": "browser",
+  "panels": [
+    {
+      "id": 1,
+      "type": "timeseries",
+      "title": "Requests per second",
+      "gridPos": {"h": 8, "w": 12, "x": 0, "y": 0},
+      "targets": [{"expr": "sum(rate(nginx_http_requests_total[5m]))", "legendFormat": "requests/s"}]
+    },
+    {
+      "id": 2,
+      "type": "timeseries",
+      "title": "p95 Latency",
+      "gridPos": {"h": 8, "w": 12, "x": 12, "y": 0},
+      "targets": [{"expr": "histogram_quantile(0.95, sum(rate(nginx_ingress_controller_request_duration_seconds_bucket[5m])) by (le))", "legendFormat": "p95"}],
+      "fieldConfig": {"defaults": {"unit": "s"}}
+    },
+    {
+      "id": 3,
+      "type": "timeseries",
+      "title": "Status codes",
+      "gridPos": {"h": 8, "w": 24, "x": 0, "y": 8},
+      "targets": [{"expr": "sum by (status) (rate(nginx_ingress_controller_requests[5m]))", "legendFormat": "{{status}}"}]
+    }
+  ],
+  "templating": {"list": []},
+  "time": {"from": "now-6h", "to": "now"},
+  "refresh": "30s"
+}

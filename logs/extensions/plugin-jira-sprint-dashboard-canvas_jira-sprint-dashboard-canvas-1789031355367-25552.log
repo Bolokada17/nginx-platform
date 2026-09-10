@@ -1,0 +1,8 @@
+=== launch pid=25552 module=C:\Users\mohco\.copilot\installed-plugins\_direct\https---github-com-atlassian-labs-copilot-marketplace\extensions\jira-sprint-dashboard-canvas\extension.mjs ===
+[extension-fork] resolveBootstrapPath: __dir=C:\Users\mohco\AppData\Local\copilot\pkg\win32-x64\1.0.83, argv-bootstrap=C:\Users\mohco\AppData\Local\copilot\pkg\win32-x64\1.0.83\preloads\extension_bootstrap.mjs
+[extension-fork] resolveBootstrapPath: localBootstrap=C:\Users\mohco\AppData\Local\copilot\pkg\win32-x64\1.0.83\preloads\extension_bootstrap.mjs, localExists=true
+[extension-bootstrap] starting: pid=25552, COPILOT_SDK_PATH=\\?\C:\Users\mohco\AppData\Local\Programs\GitHub Copilot\copilot-sdk, EXTENSION_PATH=C:\Users\mohco\.copilot\installed-plugins\_direct\https---github-com-atlassian-labs-copilot-marketplace\extensions\jira-sprint-dashboard-canvas\extension.mjs, SESSION_ID=47ac5bed-03a8-4dcc-b60e-b7813f1c885b
+[extension-bootstrap] importing extension: C:\Users\mohco\.copilot\installed-plugins\_direct\https---github-com-atlassian-labs-copilot-marketplace\extensions\jira-sprint-dashboard-canvas\extension.mjs
+[extension-resolver] resolver hook loaded: pid=25552, COPILOT_SDK_PATH=\\?\C:\Users\mohco\AppData\Local\Programs\GitHub Copilot\copilot-sdk
+=== ready ===
+=== exit code=1 disposition=stopped-normally ===
