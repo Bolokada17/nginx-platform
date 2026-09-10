@@ -11,7 +11,7 @@ spec:
   source:
     # Durch die URL des Git-Repositories ersetzen, das dieses Chart enthält.
     repoURL: https://github.com/Bolokada17/nginx-platform.git
-    targetRevision: main
+    targetRevision: master
     path: nginx-chart
     helm:
       releaseName: nginx
